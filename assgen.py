@@ -1,7 +1,7 @@
 from math import floor
 
 # GET YO ASS COOKED
-def shartAss(assNum):
+def shartAss(assNum: int) -> None:
     assnNum = floor(abs(assNum))
     if assnNum == 0:
         print("GET YO ASS OUTTA HERE!")
